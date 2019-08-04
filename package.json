@@ -1,0 +1,38 @@
+{
+  "name": "02-neeraj-vashi-friendrequest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js",
+    "mig": "babel-node ./migrationScript/friends.js"
+ 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mocha": "^6.2.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "node-fetch": "^2.6.0",
+    "nyc": "^14.1.1",
+    "validator": "^11.0.0",
+    "winston": "^3.2.1"
+  }
+}
